@@ -19,7 +19,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.kitsuneark.slider.aux.ActionButton;
+import com.kitsuneark.slider.auxiliary.ActionButton;
 import com.kitsuneark.slider.handlers.BackgroundServiceHandler;
 import com.kitsuneark.slider.handlers.MessageHandler;
 import com.kitsuneark.slider.handlers.NotificationReceiver;

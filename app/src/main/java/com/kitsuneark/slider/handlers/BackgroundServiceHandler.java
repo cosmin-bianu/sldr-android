@@ -9,7 +9,7 @@ import android.support.constraint.ConstraintLayout;
 import android.widget.Toast;
 
 import com.kitsuneark.slider.R;
-import com.kitsuneark.slider.aux.ActionButton;
+import com.kitsuneark.slider.auxiliary.ActionButton;
 
 import static android.content.Context.POWER_SERVICE;
 
