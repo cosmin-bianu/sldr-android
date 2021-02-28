@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SLDR</string>
+    <string name="camera_rationale_message">Camera access will be needed in order to scan the QR code on the computer screen for easy and seamless connection. You can download the desktop application at [LINK]</string>
+    <string name="camera_rationale_title">Requesting camera permissions</string>
+    <string name="ok">OK</string>
+    <string name="invalid_qr_code">Invalid QR code</string>
+    <string name="help_text"> Press the top section to bring up the NEXT slide. Press the bottom section to go back to the PREVIOUS one.\nIf nothing happens when pressing either section, ensure that the presentation window on your computer is selected.\n\nPress \”Turn ON Background Service\" to use the UP/DOWN volume keys instead of the smartphone screen.\n\nWhen ON, the Background Service will deactivate adjustment of media and ringtone volume.</string>
+    <string name="turn_bgs_off">Volume keys control:\n ON</string>
+    <string name="turn_bgs_on">Volume keys control:\n OFF</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="light_mode">Light mode</string>
+    <string name="locked">Locked</string>
+    <string name="unlocked">Unlocked</string>
+</resources>

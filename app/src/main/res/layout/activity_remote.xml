@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kitsuneark.slider.activities.RemoteControlActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/ib_button_up"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorBlack"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/cl_middle_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cl_middle_menu"
+        android:layout_width="0dp"
+        android:layout_height="82dp"
+        app:layout_constraintBottom_toTopOf="@+id/ib_button_down"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_go_left"
+            android:layout_width="75dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent"
+            android:drawableStart="@drawable/ic_keyboard_arrow_left_white_24dp"
+            android:fontFamily="@font/pulpdisplay_bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_action"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="ACTION"
+            android:textSize="21dp"
+            android:fontFamily="@font/pulpdisplay_bold"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_go_left"
+            app:layout_constraintEnd_toStartOf="@+id/btn_go_right"
+            app:layout_constraintStart_toEndOf="@+id/btn_go_left"
+            app:layout_constraintTop_toTopOf="@+id/btn_go_left" />
+
+        <Button
+            android:id="@+id/btn_go_right"
+            android:layout_width="75dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="10dp"
+            android:background="@android:color/transparent"
+            android:drawableEnd="@drawable/ic_keyboard_arrow_right_white_24dp"
+            android:fontFamily="@font/pulpdisplay_bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+    <Button
+        android:id="@+id/ib_button_down"
+        android:layout_width="0dp"
+        android:layout_height="229dp"
+        android:background="@color/colorBlack"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

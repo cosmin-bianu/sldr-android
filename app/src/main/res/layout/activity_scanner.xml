@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_scanner_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kitsuneark.slider.activities.ScannerActivity">
+
+    <Button
+        android:id="@+id/btn_demo"
+        android:layout_width="174dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="DEMO"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <me.dm7.barcodescanner.zxing.ZXingScannerView
+        android:id="@+id/sv_scanner_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:borderColor="@color/colorGreen"
+        app:laserEnabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_demo"
+        app:layout_constraintVertical_bias="1.0"
+        app:squaredFinder="true">
+
+    </me.dm7.barcodescanner.zxing.ZXingScannerView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="visible"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-3940256099942544/630097811"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
+
+
+    <!--app:adUnitId="ca-app-pub-5590113961797976/8089393499" live ad banner-->
+    <!--ca-app-pub-3940256099942544/6300978111 test ad banner -->
