@@ -20,7 +20,7 @@
     <img src="img/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Slider Desktop</h3>
+  <h3 align="center">Slider Mobile Application</h3>
 
   <p align="center">
    Application used to turn Android phones into presentation remote controls when paired with <a href="https://github.com/cosmin-bianu/sldr-desktop">Slider Desktop</a>. The desktop application supports multiple presenters and is able to lock individual presenter's devices. It's also capable of running single presenter mode with the ability to switch the currently presenting device. This project earned my computer science certificate in my final year of high school (2019).
